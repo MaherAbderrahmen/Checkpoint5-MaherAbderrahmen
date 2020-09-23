@@ -1,0 +1,30 @@
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+
+  font-size: 25px;
+}
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  width: 100%;
+  background-color: white;
+  padding: 20px 20px;
+}
+.container-head {
+  left: 250px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.item {
+  padding-top: 5%;
+}
+.red {
+  color: red;
+}
+.shopping-bag{
+  display: flex;
+  padding: 50px;
+}
